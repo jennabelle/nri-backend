@@ -24,7 +24,7 @@ app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(express.static(__dirname + '/public'));
 
 // routes ==================================================
-require('./app/routes')(app); // configure our routes
+// require('./app/routes')(app); // configure our routes
 
 app.post('/search/api/trips', function(request, response) {
 
